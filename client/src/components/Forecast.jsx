@@ -82,9 +82,9 @@ function Forecast() {
             theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-black"
           }`}
         >
-          <button className="bg-green-400 p-2 ml-60 rounded-xl shadow-xl hover:shadow-md">
+          {/* <button className="bg-green-400 p-2 ml-60 rounded-xl shadow-xl hover:shadow-md">
             + Add Preferences
-          </button>
+          </button> */}
           <h2 className="text-xl font-semibold mb-2">
             {forecast.location.name}, {forecast.location.country}
           </h2>
